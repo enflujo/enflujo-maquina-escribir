@@ -1,5 +1,20 @@
 # Paso a paso para maquinita-pantalla de leds 
 
+
+Se necesita:
+- Arduino MEGA 2650
+- Arduino UNO
+- El código que vamos a dejar acá para cada Arduino
+- Máquina de escribir
+- Dos baquelitas
+- Resistencias de 10K
+- Cable, mucho cable.
+- Componentes de Arduino de señal de radio (emisor y receptor, aquí usamos los JMR-Tx y JMR Rx 433)
+- Pantalla-Matriz LED
+
+
+---
+
 Con nuestra biscabuela 👵🏼, conseguimos nuestra máquina linda preciosa <img src="https://emojis.slackmojis.com/emojis/images/1643510651/50638/typewriter.gif?1643510651" width="30"/>:
 
 <img width="795" alt="image" src="https://github.com/enflujo/enflujo-maquina-escribir/assets/42554838/306b7a5e-b917-421f-8053-1fe2fb691197">
@@ -34,6 +49,24 @@ Usando resistencias de 10K **(café-negro-naranja-dorado) **
 ![image](https://github.com/enflujo/enflujo-maquina-escribir/assets/42554838/7d12b5ce-d0be-4692-ba59-38cb7bb73682)
 
 El circuito debe verse más o menos así:
+
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+
+----
+
+Una vez terminemos de conectar los pines del Arduino a la segunda baquelita debe verse así de hermoso:
+
+<img src="https://github.com/enflujo/enflujo-maquina-escribir/assets/42554838/12a54a99-1e84-4900-9810-ca183b587a52" width="600" />
+
 
 
 
