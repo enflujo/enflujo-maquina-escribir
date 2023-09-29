@@ -1,4 +1,8 @@
 # Máquina de escribir + digital 
+
+![Tamaño](https://img.shields.io/github/repo-size/enflujo/enflujo-maquina-escribir?color=%235757f7&label=Tama%C3%B1o%20repo&logo=open-access&logoColor=white)
+![Licencia](https://img.shields.io/github/license/enflujo/enflujo-maquina-escribir?label=Licencia&logo=open-source-initiative&logoColor=white)
+
 ### Documentación de los precedimientos máquina de escribir de la biscabuela 👵🏼 + arduino + pantalla + (...)
 
 
