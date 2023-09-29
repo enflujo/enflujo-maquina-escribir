@@ -68,6 +68,13 @@ Una vez terminemos de conectar los pines del Arduino a la segunda baquelita debe
 <img src="https://github.com/enflujo/enflujo-maquina-escribir/assets/42554838/12a54a99-1e84-4900-9810-ca183b587a52" width="600" />
 
 
+---
+Cuando ya la exhibes al mundo y chicaneas:
+
+![WhatsApp Image 2023-08-22 at 12 01 01 PM (1)](https://github.com/enflujo/enflujo-maquina-escribir/assets/42554838/bf8e1df5-3604-4e1d-ac81-0dc8c749db6b)
+![WhatsApp Image 2023-08-22 at 12 01 00 PM](https://github.com/enflujo/enflujo-maquina-escribir/assets/42554838/595f8b6c-9edb-47ae-939e-9afe7649aede)
+![WhatsApp Image 2023-08-22 at 12 00 56 PM](https://github.com/enflujo/enflujo-maquina-escribir/assets/42554838/29e0af6e-aca0-477c-aad4-1e19d06a59ef)
+
 
 
 
