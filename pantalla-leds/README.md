@@ -28,7 +28,8 @@ Ya con la máquina de escribir de la biscabuela 👵🏼, hay que producir una b
 ---
 A esa baquelita le soldaremos unos cables que salgan a comunicarse con los pines del Arduino.
 
-(No hay foto, perdón) 😵
+<img src="https://github.com/enflujo/enflujo-maquina-escribir/assets/5365329/5915e37e-1ff5-4631-bc03-cf3e7db9b83a" width="500" />
+
 
 ---
 Con ayuda de 🩵 **Nila** 🩵, se pone la baquelita debajo de la máquina.
