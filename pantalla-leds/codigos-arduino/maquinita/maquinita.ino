@@ -14,7 +14,7 @@
 #include "SystemFont5x7.h"
 #include <RCSwitch.h>
 
-const int totalPines = 45;
+const int totalPines = 40;
 const int tilde = 42;
 const int primerPin = 2; // Primer pin que se usa para conectar teclas.
 char letras[] = {
@@ -44,8 +44,8 @@ void loop() {
     if (estado == HIGH) {
       if (estadoActual) continue;
       estados[i] = true;
-      emisor.send(pin, 24);
-      Serial.print(pin);
+      emisor.send(i, 24);
+      Serial.print(i);
       Serial.print(": ");
       Serial.print(letras[i]);
       Serial.println("--");

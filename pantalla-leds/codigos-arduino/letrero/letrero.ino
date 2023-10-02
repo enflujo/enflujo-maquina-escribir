@@ -23,10 +23,15 @@
 DMD pantalla(PANELESX, PANELESY);
 RCSwitch receptor = RCSwitch();
 
-const int totalPines = 42;
+const int totalPines = 43;
 
-char letras[] = {'q', 'a', '2', 'z', 'w', 's', '3', 'x', 'e', 'd', '4', 'c', 'r', 'f', '5', 'v', 't', 'g', '6', 'b', 'y', 'h', '7', 'n', 'u', 'j', '8', 'm', 'i', 'k', '9', ',', 'o', 'l', '_', '.', 'p', 'ñ', '!', '$', '¢', ':', '?','x', 'e', 'd'};
-
+int x = 54;
+int conteo = 1;
+char letras[] = {
+  'Q', 'A', '2', 'Z', 'W', 'S', '3', 'X', 'E', 'D',
+  '4', 'C', 'R', 'F', '5', 'V', 'T', 'G', '6', 'B',
+  'Y', 'H', '7', 'N', 'U', 'J', '8', 'M', 'I', 'K',
+  '9', ',', 'O', 'L', '_', '.', 'P', 'Ñ', '!', '$', '¢', ':','?'};
 
 String mensaje = "";
 
@@ -41,44 +46,36 @@ void setup() {
   pantalla.clearScreen( true );
   receptor.enableReceive(0);
 }
+int anchoLetras = 0;
 
 void loop() {
- // Serial.print('miau');
   if (receptor.available()) {
     const int indiceTecla = receptor.getReceivedValue();
-    const int i = receptor.getReceivedValue() - 2;
-   // Serial.print(i);
-    Serial.print(": ");
-    Serial.println(letras[i]);
+    const int i = receptor.getReceivedValue();
+        
     mensaje += letras[i];
 
     pantalla.clearScreen( true );
     pantalla.selectFont(FUENTE);
     const char * c = mensaje.c_str();
 
-    pantalla.drawMarquee(c, strlen(c), (32*PANELESX)-1,0);
-    long start = millis();
-
-    //pantalla.stepMarquee(-1, 0)
-
-    long timer = start;
-    boolean ret = false;
-    while(!ret){
-      if ((timer+30) < millis()) {
-        ret = pantalla.stepMarquee(-1,0);
-        timer = millis();
-      }
-    }
-    // int x = 1;
-    // int y = 0;
-    // pantalla.drawMarquee(c, strlen(c), x, y);
+    anchoLetras += pantalla.charWidth(letras[i]) + 1;
     
-  }
-}
+    pantalla.drawMarquee(c, strlen(c), (32*PANELESX), 0);
+    pantalla.stepMarquee(-anchoLetras, 0);
+    //salida(receptor.getReceivedValue(), receptor.getReceivedBitlength(), receptor.getReceivedDelay(), receptor.getReceivedRawdata(),receptor.getReceivedProtocol());
 
-void revisar() {
-  if (receptor.available()) {
-
+    Serial.print(i);
+    Serial.print(": ");
+    Serial.print(letras[i]);
+    Serial.print(" - ");
+    Serial.print("N. chars: ");
+    Serial.print(strlen(c));
+    Serial.print(" | ancho letras: ");
+    Serial.print(anchoLetras);
+    Serial.println();
+    
+    delay(1000);
     receptor.resetAvailable();
   }
 }
