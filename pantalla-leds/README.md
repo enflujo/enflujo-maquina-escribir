@@ -1,4 +1,15 @@
+# Paso a paso para maquinita-pantalla de leds
+### Se necesita:
 
+- Arduino MEGA 2650
+- Arduino UNO
+- El código que vamos a dejar acá para cada Arduino
+- Máquina de escribir
+- Dos baquelitas
+- Resistencias de 10K
+- Cable, mucho cable.
+- Componentes de Arduino de señal de radio (emisor y receptor, aquí usamos los JMR-Tx y JMR Rx 433)
+- Pantalla-Matriz LED
 
 ---
 Cuando ya la exhibes al mundo y chicaneas:
