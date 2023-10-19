@@ -3,8 +3,8 @@
 LICENCIA PÚBLICA PARA QUE HAGA LO QUE LE DÉ LA GANA
 <br />Versión 2, diciembre de 2004 
 
-Derechos de autor (C) 2004 Sam Hocevar
-14 rue de Plaisance, 75014 París, Francia 
+Derechos de autor (C) 2023 Laboratorio EnFlujo enflujo@uniandes.edu.co
+Bogotá, Colombia
 
 Todos tienen permitido copiar y distribuir de forma literal o modificada 
 copias de este documento de licencia, y su modificación está permitida 
@@ -26,7 +26,8 @@ TÉRMINOS Y CONDICIONES PARA LA COPIA, DISTRIBUCIÓN & MODIFICACIÓN
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
 <br />Version 2, December 2004 
 
-Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
+Copyright (C) 2023 Laboratorio EnFlujo enflujo@uniandes.edu.co
+Bogotá, Colombia
 
 Everyone is permitted to copy and distribute verbatim or modified 
 copies of this license document, and changing it is allowed as long 
