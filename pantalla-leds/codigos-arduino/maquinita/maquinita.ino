@@ -44,11 +44,11 @@ void loop() {
     if (estado == HIGH) {
       if (estadoActual) continue;
       estados[i] = true;
-      emisor.send(i + 1, 24);
-      //Serial.print(i);
-      //Serial.print(": ");
-      //Serial.print(letras[i]);
-      //Serial.println("--");
+      emisor.send(i, 24);
+      Serial.print(i);
+      Serial.print(": ");
+      Serial.print(letras[i]);
+      Serial.println("--");
       
     } else {
       if (!estadoActual) continue;
