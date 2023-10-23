@@ -1,13 +1,11 @@
 # Paso a paso para maquinita-pantalla de leds 👾
+viene desde [🦾Máquina de escribir que se convierte en teclado digital ⌨](https://github.com/enflujo/enflujo-maquina-escribir)
+
 ### Se necesita:
 
-- Arduino MEGA 2650
+- (lo que tenías desde el paso anterior)
 - Arduino UNO
 - El código que vamos a dejar acá para cada Arduino
-- Máquina de escribir
-- Dos baquelitas
-- Resistencias de 10K
-- Cable, mucho cable.
 - Componentes de Arduino de señal de radio (emisor y receptor, aquí usamos los JMR-Tx y JMR Rx 433)
 - Pantalla-Matriz LED
 
