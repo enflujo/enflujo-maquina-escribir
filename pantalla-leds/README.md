@@ -26,6 +26,9 @@ Al abrir el archivo 'letrero.ino' en el computador, **es normal que eso abra los
 Destapa tu pantalla 
 
 ![IMG_20231019_171640](https://github.com/enflujo/enflujo-maquina-escribir/assets/42554838/95919c38-7aeb-455b-90ad-2779c5c89311)
+
+(Originalmente el Arduino y el receptor no vienen dentro. omitan eso en la foto #perdón)
+
 ![IMG_20231019_171845](https://github.com/enflujo/enflujo-maquina-escribir/assets/42554838/9ec66ebe-df14-4228-9eac-ba4b985efa4e)
 
 
@@ -46,7 +49,7 @@ Conecta el módulo
 
 ---
 
-Conecta a la corriente el Arduino UNO y la pantalla LED.
+Tapa la pantalla, conecta a la corriente el Arduino UNO y la pantalla LED.
 Usa tu teclado y se verá algo así cuando ya la exhibes al mundo y chicaneas:
 
 ![WhatsApp Image 2023-08-22 at 12 01 00 PM](https://github.com/enflujo/enflujo-maquina-escribir/assets/42554838/595f8b6c-9edb-47ae-939e-9afe7649aede)
