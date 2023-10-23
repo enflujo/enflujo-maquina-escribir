@@ -31,7 +31,7 @@ char letras[] = {
   'Q', 'A', '2', 'Z', 'W', 'S', '3', 'X', 'E', 'D',
   '4', 'C', 'R', 'F', '5', 'V', 'T', 'G', '6', 'B',
   'Y', 'H', '7', 'N', 'U', 'J', '8', 'M', 'I', 'K',
-  '9', ',', 'O', 'L', '_', '.', 'P', 'Ñ', '!', '$', '¢', ':','?'};
+  '9', ',', 'O', 'L', '_', '.', 'P', 209, '!', '$', '¢', ':','?'};
 
 String mensaje = "";
 
@@ -51,7 +51,7 @@ int anchoLetras = 0;
 void loop() {
   if (receptor.available()) {
     const int indiceTecla = receptor.getReceivedValue();
-    const int i = receptor.getReceivedValue();
+    const int i = receptor.getReceivedValue()-1;
         
     mensaje += letras[i];
 
