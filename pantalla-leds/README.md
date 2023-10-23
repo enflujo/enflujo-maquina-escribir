@@ -14,9 +14,12 @@
 
 ---
 
-Carga este código al Arduino:
+Es necesario descargar estos archivos en una carpeta en el computador. 
+- [Código Letrero](./codigos-arduino/letrero/)
 
-VGRTYURJCEFRTYJUKJRHGFAE
+Al abrir el archivo 'letrero.ino' en el computador, **es normal que eso abra los otros dos archivos en la interfaz del software de Arduino**, se compila y se carga solo el 'letrero.ino'. Eso hala los otros dos dentro del Arduino.
+
+
 
 
 ---
