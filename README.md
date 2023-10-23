@@ -74,6 +74,13 @@ Este es el circuito:
 
 
 ----
+Este es el código que vamos a cargar en nuestro Arduino MEGA:
+
+[Código maquinita](pantalla-leds/codigos-arduino/maquinita/maquinita.ino)
+
+----
+
+
 
 Una vez terminemos de conectar los pines del Arduino a la segunda baquelita debe verse así de hermoso:
 
